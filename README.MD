@@ -1,9 +1,9 @@
 ## コンパイル
 ```
-sh -e compile.sh
+bin/compile file_name
 ```
 ## 実行
 ```
 # input.txtにインプット内容を記入する
-sh -e test.sh
+bin/test file_name
 ```

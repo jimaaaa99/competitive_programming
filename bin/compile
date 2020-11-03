@@ -1,0 +1,5 @@
+#!/bin/bash
+FILE=$1
+OUTPUT_FILE=${FILE%.*}
+
+g++ $FILE -o $OUTPUT_FILE && echo $OUTPUT_FILE

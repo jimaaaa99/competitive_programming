@@ -1,0 +1,6 @@
+#!/bin/bash
+FILE=$1
+
+BIN_FILE=`bin/compile $FILE`
+
+cat input.txt | $BIN_FILE
